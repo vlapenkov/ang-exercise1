@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import {MatToolbarModule, MatInputModule, MatFormFieldModule, MatCardModule} from '@angular/material';
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -8,7 +8,11 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    MatToolbarModule, 
+    MatInputModule, 
+    MatFormFieldModule, 
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

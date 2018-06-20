@@ -1,4 +1,10 @@
 <!--The content below is only a placeholder and can be replaced.-->
+<mat-toolbar color="primary">
+
+  test toolbar
+  <ng-content></ng-content>
+
+</mat-toolbar>
 <div style="text-align:center">
   <h1>
     Welcome to {{ title }}!
@@ -12,4 +18,13 @@
     <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
   </li>
 </ul>
+
+<mat-card [ngClass]="{background: isOdd}">
+  <mat-card-header>
+    <div class="position">{{position}}.</div>
+    <div class="name">
+     username 
+    </div>
+  </mat-card-header>
+</mat-card>
 

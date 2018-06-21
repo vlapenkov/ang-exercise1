@@ -7,7 +7,7 @@ import {Observable} from 'rxjs';
   templateUrl: './placeslist.component.html',
   styleUrls: ['./placeslist.component.css']
 })
-export class PlaceslistComponent implements OnInit {
+export class PlaceslistComponent {
 
   @Input()
   public selectedCategory:string;
@@ -16,12 +16,9 @@ export class PlaceslistComponent implements OnInit {
   @Output()
   public setPlace: EventEmitter<IPlace> = new EventEmitter();
 
-  constructor() { }
+ 
 
-  ngOnInit() {
-  }
-
-  selectPlace(place)
+  selectPlace(place:IPlace)
   {
     this.setPlace.emit(place);
   }

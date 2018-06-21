@@ -8,14 +8,9 @@ import {IPlace} from '../places';
 })
 
 
-export class TeddyComponent implements OnInit {
+export class TeddyComponent {
 
   @Input()
   place: IPlace;
-
-  constructor() { }
-
-  ngOnInit() {
-  }
 
 }

@@ -6,7 +6,7 @@ import {IPlace} from '../places';
   templateUrl: './placecard.component.html',
   styleUrls: ['./placecard.component.css']
 })
-export class PlacecardComponent implements OnInit {
+export class PlacecardComponent  {
 
   @Input()
   place:IPlace;
@@ -14,10 +14,6 @@ export class PlacecardComponent implements OnInit {
   @Output()
   public setPlace: EventEmitter<IPlace> = new EventEmitter();
 
-  constructor() { }
-
-  ngOnInit() {
-  }
 
   public setCurrentPlaceActive()
   {

@@ -6,14 +6,12 @@ import {IPlace} from '../places';
   templateUrl: './temperature.component.html',
   styleUrls: ['./temperature.component.css']
 })
-export class TemperatureComponent implements OnInit {
+export class TemperatureComponent {
 
   constructor() { }
 
   @Input()
   place:IPlace;
 
-  ngOnInit() {
-  }
 
 }

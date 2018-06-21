@@ -1,0 +1,18 @@
+
+<div *ngIf="places$ | async  as places; else loadingBlock">
+<div class="village">
+  <h3>Righteous indignation &amp; like</h3>
+   <span class="line"> </span>
+     <div class="activity_box">
+      <div class="scrollbar" id="style-2">
+        <app-placecard *ngFor="let place of places | placesFilterpipe:selectedCategory" [place]="place" (setPlace)="selectPlace($event)"> </app-placecard>
+        
+      </div>
+ </div>
+</div>
+<ng-template #loadingBlock>
+  <div>
+    ....loading
+  </div>
+</ng-template>
+

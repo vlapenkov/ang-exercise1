@@ -1,0 +1,8 @@
+
+<div class="ele-strip">
+  {{activecategory}}
+  <ul> 
+      <li *ngFor="let category of categories "> <a href="javascript:void(0)"  (click)=selectCurCategory(category)>{{category| titlecase}}</a> </li>
+   
+  </ul>
+</div>

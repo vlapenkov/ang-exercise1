@@ -1,30 +1,15 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<mat-toolbar color="primary">
 
-  test toolbar
-  <ng-content></ng-content>
-
-</mat-toolbar>
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img  [attr.src]="logo" [style.width.px]="width">
+<h1> {{title |titlecase }}</h1>
+<h2> Selected category is: {{selectedCategory }} and selected place is: {{selectedPlace?.address }}</h2>
+<div class="element"> 
+<div class="element-left">
+  <div class="element-bg-img"><img src="/assets/images/1.jpg" alt="" class="img-responsive"> </div>
+  <div class="element-left-bottom">
+    <app-placesfilter (search)="selectedCategory = $event"></app-placesfilter>
+    <app-placeslist [selectedCategory]="selectedCategory" (setPlace)="selectedPlace=$event;"></app-placeslist>
+  </div>
 </div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
-
-<mat-card [ngClass]="{background: isOdd}">
-  <mat-card-header>
-    <div class="position">{{position}}.</div>
-    <div class="name">
-     username 
+<div class="element-right">
+  <app-temperature [place]="selectedPlace"></app-temperature>
+    <app-teddy [place]="selectedPlace"></app-teddy>
     </div>
-  </mat-card-header>
-</mat-card>
-

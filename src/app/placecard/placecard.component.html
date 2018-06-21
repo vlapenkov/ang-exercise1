@@ -1,0 +1,14 @@
+<div  class="activity-row" (click)="setCurrentPlaceActive()">
+    <div class="activity-desc">
+      <h5>{{place.address}}</h5>              
+      <h6>{{place.phone}}</h6>             
+      </div>
+      <div class="activity-img">
+          <ul>
+          <li><img [attr.src]="place.img" alt=""></li>
+          <li><img [attr.src]="place.social_info.img" alt=""></li>
+          </ul>
+          </div>
+        <div class="clear"> </div>
+           
+ </div> 

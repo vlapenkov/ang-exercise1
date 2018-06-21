@@ -4,7 +4,7 @@ import {IPlace} from './places';
 @Pipe({
   name: 'placesFilterpipe'
 })
-export class PlacesfiltPipe implements PipeTransform {
+export class PlacesfilterPipe implements PipeTransform {
 
   public transform(places: IPlace[], searchTerm: string): IPlace[] {
     if (!searchTerm) {

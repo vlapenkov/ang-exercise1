@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { PlacesfilterComponent } from './placesfilter/placesfilter.component';
 import { PlaceslistComponent } from './placeslist/placeslist.component';
 import { PlacecardComponent } from './placecard/placecard.component';
-import { PlacesfiltPipe } from './placesfilt.pipe';
+import { PlacesfilterPipe } from './placesfilt.pipe';
 import { TemperatureComponent } from './temperature/temperature.component';
 import { TeddyComponent } from './teddy/teddy.component';
 
@@ -15,7 +15,7 @@ import { TeddyComponent } from './teddy/teddy.component';
     PlacesfilterComponent,
     PlaceslistComponent,
     PlacecardComponent,
-    PlacesfiltPipe,
+    PlacesfilterPipe,
     TemperatureComponent,
     TeddyComponent
   ],

@@ -35,31 +35,31 @@ const places: IPlace[] = [
       phone: 79301267728,
       weather : {
           title:'cool wheather',
-          icon:'/assets/images/cloudy.png',
+          icon:'./assets/images/cloudy.png',
           water:20,
           temperature:30
       },
       social_info: {
           title:'open air ',
-          img: '/assets/images/r1.jpg',
+          img: './assets/images/r1.jpg',
           followers:20,
           following:10
       },
       type: 'hotel'
     },
     {
-        img:'/assets/images/res.jpg',
+        img:'./assets/images/res.jpg',
       address:'address2 ',
       phone: 45623467853,
       weather : {
           title:'cool wheather',
-          icon:'/assets/images/cloudy.png',
+          icon:'./assets/images/cloudy.png',
           water:21,
           temperature:31
       },
       social_info: {
           title:'fancy games',
-          img: '/assets/images/r1.jpg',
+          img: './assets/images/r1.jpg',
           followers:270,
           following:104
       },
@@ -67,18 +67,18 @@ const places: IPlace[] = [
     },
     
     {        
-        img:'/assets/images/res.jpg',
+        img:'./assets/images/res.jpg',
       address:'address3 ',
       phone: 1234567890,
       weather : {
           title:'cool wheather',
-          icon:'/assets/images/cloudy.png',
+          icon:'./assets/images/cloudy.png',
           water:25,
           temperature:35
       },
       social_info: {
           title:'soccer',
-          img: '/assets/images/r1.jpg',
+          img: './assets/images/r1.jpg',
           followers:210,
           following:130
       },

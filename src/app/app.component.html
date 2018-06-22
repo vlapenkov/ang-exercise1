@@ -1,7 +1,7 @@
 <h1> {{title |titlecase }}</h1>
 <div class="element"> 
 <div class="element-left">
-  <div class="element-bg-img"><img src="/assets/images/1.jpg" alt="" class="img-responsive"> </div>
+  <div class="element-bg-img"><img src="./assets/images/1.jpg" alt="" class="img-responsive"> </div>
   <div class="element-left-bottom">
     <app-placesfilter (search)="selectedCategory = $event"></app-placesfilter>
     <app-placeslist [selectedCategory]="selectedCategory" (setPlace)="selectedPlace=$event;"></app-placeslist>

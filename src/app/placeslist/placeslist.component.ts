@@ -9,6 +9,7 @@ import {Observable} from 'rxjs';
 })
 export class PlaceslistComponent {
 
+  
   @Input()
   public selectedCategory:string;
   public places$: Observable<IPlace[]> = places$;

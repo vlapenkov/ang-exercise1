@@ -8,10 +8,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   
-  public title = 'Hot wheather widget';
-  public logo = 'assets/images/Angular_full_color_logo.png';
-  public width = 50;
-  public text = 'Search user';
+  
+  public title = 'Hot wheather widget'; 
+  public selectedPlace: string;
+  public selectedCategory: string;
 
  
 }

@@ -6,8 +6,8 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
   styleUrls: ['./placesfilter.component.css']
 })
 export class PlacesfilterComponent  {
- 
-  categories:string[] =["hotel", "fishing", "tours","wheather"];
+ public activecategory = '';
+  categories:string[] =['hotel', 'fishing', 'tours','wheather'];
 
 
   @Output()

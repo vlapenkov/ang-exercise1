@@ -27,7 +27,7 @@ interface ISocialInfo {
     following:number
 }
 
-
+/*
 const places: IPlace[] = [
     {
         img:'https://via.placeholder.com/50x50/ff0000',
@@ -91,3 +91,4 @@ const places: IPlace[] = [
     .pipe(
       delay(1000)
     );
+*/

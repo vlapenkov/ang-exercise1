@@ -8,6 +8,8 @@ import { PlacecardComponent } from './placecard/placecard.component';
 import { PlacesfilterPipe } from './placesfilt.pipe';
 import { TemperatureComponent } from './temperature/temperature.component';
 import { TeddyComponent } from './teddy/teddy.component';
+import { HttpClientModule } from '@angular/common/http';
+import { PlacesService } from './places.service';
 
 @NgModule({
   declarations: [
@@ -24,9 +26,10 @@ import { TeddyComponent } from './teddy/teddy.component';
     MatToolbarModule, 
     MatInputModule, 
     MatFormFieldModule, 
-    MatCardModule
+    MatCardModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [PlacesService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,0 +1,193 @@
+[    {    
+        "img":"https://via.placeholder.com/50x50/ff0000",
+      "address":"address1 ",
+      "phone": "79301267728",
+      "weather" : {
+          "title":"cool wheather",
+          "icon":"./assets/images/cloudy.png",
+          "water":20,
+          "temperature":30
+      },
+      "social_info": {
+          "title":"open air ",
+          "img": "./assets/images/r1.jpg",
+          "followers":20,
+          "following":10
+      },
+      "type": "hotel"
+    },
+    {
+    "img": "./assets/images/res.jpg",
+    "address": "Resort #1",
+    "phone":  5425658574,
+    "weather": {
+      "title": "Et harum quidem #1",
+      "icon": "../../assets/images/cloudy.png",
+      "water": 7,
+      "temperature": 3
+    },
+    "social_info":{
+      "title": "Paseo de Gracia Luxury #1",
+      "img": "../../assets/images/r1.jpg",
+      "followers": 988,
+      "following": 766
+    },
+    "type": "hotel"
+  },{
+  "img": "./assets/images/res.jpg",
+  "address": "Resort #2",
+  "phone":  7485215635,
+  "weather": {
+    "title": "Et harum quidem #2",
+    "icon": "./assets/images/cloudy.png",
+    "water": 29,
+    "temperature": 19
+  },
+  "social_info":{
+    "title": "Paseo de Gracia Luxury #2",
+    "img": "../../assets/images/r1.jpg",
+    "followers": 110,
+    "following": 2133
+  },
+  "type": "hotel"
+},
+{
+    "img": "../../assets/images/res.jpg",
+    "address": "Resort #3",
+    "phone":  3565585825,
+    "weather": {
+      "title": "Et harum quidem #3",
+      "icon": "../../assets/images/cloudy.png",
+      "water": 20,
+      "temperature": 11
+    },
+    "social_info":{
+      "title": "Paseo de Gracia Luxury #3",
+      "img": "../../assets/images/r1.jpg",
+      "followers": 33,
+      "following": 3121
+    },
+    "type": "fishing"
+  },{
+    "img": "../../assets/images/res.jpg",
+    "address": "Resort #4",
+    "phone":  7896541236,
+    "weather": {
+      "title": "Et harum quidem #4",
+      "icon": "../../assets/images/cloudy.png",
+      "water": 7,
+      "temperature": 123
+    },
+    "social_info":{
+      "title": "Paseo de Gracia Luxury #4",
+      "img": "../../assets/images/r1.jpg",
+      "followers": 74232,
+      "following": 1233
+    },
+    "type": "fishing"
+  },{
+    "img": "../../assets/images/res.jpg",
+    "address": "Resort #5",
+    "phone":  1254789632,
+    "weather": {
+      "title": "Et harum quidem #5",
+      "icon": "../../assets/images/cloudy.png",
+      "water": 88,
+      "temperature": 65
+    },
+    "social_info":{
+      "title": "Paseo de Gracia Luxury #5",
+      "img": "../../assets/images/r1.jpg",
+      "followers": 12,
+      "following": 32
+    },
+    "type": "tours"
+  },{
+    "img": "../../assets/images/res.jpg",
+    "address": "Resort #6",
+    "phone":  5412369874,
+    "weather": {
+      "title": "Et harum quidem #6",
+      "icon": "../../assets/images/cloudy.png",
+      "water": 43,
+      "temperature": 11
+    },
+    "social_info":{
+      "title": "Paseo de Gracia Luxury #6",
+      "img": "../../assets/images/r1.jpg",
+      "followers": 22,
+      "following": 1231
+    },
+    "type": "tours"
+  },{
+    "img": "../../assets/images/res.jpg",
+    "address": "Resort #7",
+    "phone":  3254125478,
+    "weather": {
+      "title": "Et harum quidem #7",
+      "icon": "../../assets/images/cloudy.png",
+      "water": 14,
+      "temperature": 12
+    },
+    "social_info":{
+      "title": "Paseo de Gracia Luxury #7",
+      "img": "../../assets/images/r1.jpg",
+      "followers": 7112,
+      "following": 6423
+    },
+    "type": "tours"
+  },{
+    "img": "../../assets/images/res.jpg",
+    "address": "Resort #8",
+    "phone":  2547852145,
+    "weather": {
+      "title": "Et harum quidem #8",
+      "icon": "../../assets/images/cloudy.png",
+      "water": 22,
+      "temperature": 32
+    },
+    "social_info":{
+      "title": "Paseo de Gracia Luxury #8",
+      "img": "../../assets/images/r1.jpg",
+      "followers": 456,
+      "following": 4111
+    },
+    "type": "fishing"
+  },{
+    "img": "../../assets/images/res.jpg",
+    "address": "Resort #9",
+    "phone":  3698521478,
+    "weather": {
+      "title": "Et harum quidem #9",
+      "icon": "../../assets/images/cloudy.png",
+      "water": 12,
+      "temperature": 23
+    },
+    "social_info":{
+      "title": "Paseo de Gracia Luxury #9",
+      "img": "../../assets/images/r1.jpg",
+      "followers": 23425,
+      "following": 23
+    },
+    "type": "hotel"
+  },
+    {    
+        "img":"https://via.placeholder.com/50x50/ff0000",
+      "address":"address3 ",
+      "phone": "79301267728",
+      "weather" : {
+          "title":"cool wheather",
+          "icon":"./assets/images/cloudy.png",
+          "water":12,
+          "temperature":3
+      },
+      "social_info": {
+          "title":"open air ",
+          "img": "./assets/images/r1.jpg",
+          "followers":20,
+          "following":10
+      },
+      "type": "hotel"
+    }
+
+]

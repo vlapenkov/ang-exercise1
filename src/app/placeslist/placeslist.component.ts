@@ -7,12 +7,22 @@ import {Observable} from 'rxjs';
   templateUrl: './placeslist.component.html',
   styleUrls: ['./placeslist.component.css']
 })
-export class PlaceslistComponent {
+export class PlaceslistComponent implements OnInit {
+  ngOnInit(): void {
+    places$.subscribe(( places:IPlace[])=> {
+     
+      this.places=places;
+    this.selectPlace(places[0]);
+    },
+      (error) => {console.log(error.message); }
+  );
+}
 
   
   @Input()
   public selectedCategory:string;
-  public places$: Observable<IPlace[]> = places$;
+  
+  public places: IPlace[]  ;
 
   @Output()
   public setPlace: EventEmitter<IPlace> = new EventEmitter();

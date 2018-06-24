@@ -313,6 +313,12 @@ i.text-info{
 .ele-strip ul li {
   padding: 0em 0.8em;
 }
+
+.ele-strip ul li a.active{
+  color:#5fb3f9;
+  font-weight: bold;
+}
+
 .element-right {
   width: 40%;
 }

@@ -15,6 +15,7 @@ export class PlacesfilterComponent  {
 
 public selectCurCategory(category:string) :void
 {
+  this.activecategory=category;
   this.search.emit(category);
 }
 
